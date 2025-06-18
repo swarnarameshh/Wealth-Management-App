@@ -1,32 +1,33 @@
-#home
 import streamlit as st
 
 def home():
-    st.title("💰 Wealth Management Portfolio Dashboard")
+    st.title("Wealth Management Portfolio Dashboard")
     st.markdown("---")
 
-    st.subheader("📊 Overview")
+    st.subheader("Overview")
     st.write("""
-    Welcome to your all-in-one wealth management assistant! This interactive dashboard helps 
-    portfolio managers and individual investors effectively track, analyze, and visualize 
-    their investments with real-time data and rich analytics.
+    Welcome to your integrated wealth management assistant. This dashboard is designed to help 
+    investors and analysts track, evaluate, and improve portfolio performance with live data, 
+    automated insights, and professional visualizations.
     """)
 
-    st.subheader("✨ Key Features")
+    st.subheader("Key Features")
     st.markdown("""
-    - 📝 **Portfolio Manager Data Input**: Enter investment details such as symbol, shares, buy price, etc.
-    - 🔄 **Live API Data Fetching**: Get real-time market data using Financial Modeling Prep API.
-    - 🧮 **Data Transformation & EDA**: Analyze performance, calculate returns & taxes, and segment by sector/type.
-    - 📈 **Interactive Visualizations**: Gain insights via dynamic charts (matplotlib/seaborn).
-    - 🖥️ **Dashboard Integration**: Use Streamlit and view live-updating dashboards.
+    - **Portfolio Input Manager** – Add or update holdings including symbol, shares, buy price, and type.
+    - **Live Market Data** – Fetch real-time prices and financial metrics via Financial Modeling Prep API.
+    - **EDA & Data Transformation** – Perform sectoral breakdowns, tax estimates, and return analysis.
+    - **Risk Profiling & Alerts** – View metrics like beta, standard deviation, diversification index, and allocation ratios.
+    - **Interactive Visualizations** – Explore charts including return breakdowns, tax impact, CAPM estimates, and sector exposure.
+    - **Power BI Dashboard** – Embedded report for real-time business-level portfolio view.
+    - **AI Chat Assistant** – Personalized chatbot powered by Groq’s LLaMA 3 to answer portfolio questions.
+    - **PDF Report Generator** – Create downloadable summaries with portfolio data, visualizations, and chatbot responses.
     """)
 
-    st.subheader("🎯 Objective")
+    st.subheader("Objective")
     st.write("""
-    The aim of this dashboard is to simulate real-world portfolio management by 
-    combining live financial data with user inputs to generate actionable insights.
+    This tool is intended to simulate a real-world investment dashboard for educational or professional use, 
+    combining manual inputs, real-time market feeds, financial modeling, and AI-driven insights into one unified platform.
     """)
-
 
     st.markdown("---")
-    st.caption("Built using Streamlit · Powered by Financial Modeling Prep · Integrated with Power BI")
+    st.caption("Built using Streamlit · Financial Modeling Prep API · Groq LLaMA 3 · Power BI Embedded")
